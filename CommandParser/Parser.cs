@@ -9,6 +9,13 @@ namespace CommandParser
     //Contains the parsing logic
     public class Parser
     {
+        
+        private Command Left { get; set; }
+        
+        private Command Right { get; set; }
 
+        private Command Up { get; set; }
+
+        private Command Down { get; set; } 
     }
 }
